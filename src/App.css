@@ -1,0 +1,178 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.total {  
+  font-weight: bold;  
+  font-size: 25px;
+  background-color: #ececec;
+}
+
+.highlighted-col {  
+  background-color: #ddedff ;  
+}
+
+.highlighted-col-calorie {  
+  background-color: #fcfbcb ;  
+}
+
+.highlighted-col-income {  
+  background-color: #d6f5e3 ;  
+}
+
+.highlighted-col-expense {  
+  background-color: #ffbca1 ;  
+}
+
+.highlighted-col-total {  
+  background-color: #fcfbcb ;  
+}
+
+.highlighted-col:hover {  
+  background-color: #f3f29c  ;  
+}
+
+.highlighted-col-calorie:hover {  
+  background-color: #f3f29c ;  
+}
+
+.highlighted-col-income:hover {  
+  background-color: #abebc6 ;  
+}
+
+.highlighted-col-expense:hover {  
+  background-color: #fc9e79 ;  
+}
+
+.highlighted-col-total:hover {  
+  background-color: #f3f29c ;  
+}
+
+.inputMonth {  
+  width: 50px;
+  text-align: center;
+}
+
+.inputYear {  
+  width: 70px;
+  text-align: center;
+}
+
+.inputMessage {  
+  width: 300px;
+  margin: 0 auto;
+}
+/* 
+.chartWrapper {
+  position: relative;
+}
+
+.chartWrapper > canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events:none;
+}
+
+.chartAreaWrapper {
+  margin: auto;
+  overflow-x: scroll;
+}
+
+.chartWrapper {
+  position: relative;
+  
+} */
+
+
+.chartWrapper {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dee2e6 ;
+  position: relative;
+}
+
+.chartWrapper > canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+.chartAreaWrapper {
+  width: auto;
+  overflow-x: scroll;
+}
+
+.logout {
+  background-color: Transparent;
+  border: none;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+
